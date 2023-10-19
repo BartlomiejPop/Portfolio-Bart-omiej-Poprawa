@@ -3,36 +3,29 @@
 	margin: 0;
 	padding: 0;
 	font-family: "Bruno Ace SC", cursive, sans-serif;
-	color: #5f5e5e;
+	color: #b1acac;
 }
 
 .App-logo {
-	margin-top: 70px;
+	object-fit: contain;
 	height: 30vmin;
-	transform: scale(1);
-	pointer-events: none;
-	-webkit-box-shadow: 8px 8px 24px -10px rgba(66, 68, 90, 1);
-	-moz-box-shadow: 8px 8px 24px -10px rgba(66, 68, 90, 1);
-	box-shadow: 8px 8px 24px -10px rgba(66, 68, 90, 1);
-	transition: transform 0.3s ease;
+	-webkit-box-shadow: 9px 9px 35px -12px rgba(255, 255, 255, 1);
+	-moz-box-shadow: 9px 9px 35px -12px rgba(255, 255, 255, 1);
+	box-shadow: 9px 9px 35px -12px rgba(255, 255, 255, 1);
 }
 
 .App-header {
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: flex-start;
 	font-size: calc(10px + 2vmin);
 	color: white;
-	background: rgb(249, 249, 249);
-	background: radial-gradient(
-		circle,
-		rgb(209, 206, 206) 0%,
-		rgba(122, 148, 153, 1) 100%
-	);
+	background-color: #171717;
 }
 
 .name {
+	margin-left: 300px;
 	margin-top: 20px;
 	font-size: 50px;
 	border-bottom: 1px solid grey;
@@ -40,9 +33,9 @@
 }
 
 .header-description {
+	margin-left: 300px;
 	line-height: 1.4;
 	font-size: 23px;
-	text-align: center;
 	margin-top: 40px;
 	width: 75%;
 }
@@ -109,7 +102,9 @@
 }
 
 .circles-box,
-.phonebook-box {
+.phonebook-box,
+.moviesearch-box,
+.contactbook-box {
 	border-radius: 10px;
 	overflow: hidden;
 	height: 400px;
@@ -130,6 +125,18 @@
 	box-shadow: 0px 0px 54px 0px rgb(255, 255, 255);
 }
 
+.moviesearch-box:hover {
+	-webkit-box-shadow: 0px 0px 54px 0px rgb(227, 100, 50);
+	-moz-box-shadow: 0px 0px 54px 0px rgb(227, 100, 50);
+	box-shadow: 0px 0px 60px 6px rgb(227, 100, 50);
+}
+
+.contactbook-box:hover {
+	-webkit-box-shadow: 0px 0px 43px -8px rgb(153, 212, 138);
+	-moz-box-shadow: 0px 0px 43px -8px rgb(153, 212, 138);
+	box-shadow: 0px 0px 43px -8px rgb(153, 212, 138);
+}
+
 .circles-link {
 	max-height: 75%;
 	border-bottom: 3px solid rgb(190, 188, 188);
@@ -140,7 +147,6 @@
 .circles-description {
 	display: flex;
 	justify-content: space-between;
-	height: 25%;
 }
 
 .project-description {
@@ -151,13 +157,30 @@
 }
 
 .circles-gitHub {
-	height: 100%;
-	min-width: 15%;
+	max-width: 18%;
 	border-left: 3px solid rgb(190, 188, 188);
 	background-color: rgb(190, 188, 188);
 	cursor: pointer;
 }
 
+.logos {
+	justify-content: space-between;
+	display: flex;
+	width: 100%;
+	padding: 70px 300px 0 300px;
+}
+
+.social-media {
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+	z-index: 1;
+}
+
+.social-media-logo {
+	width: 100px;
+	cursor: pointer;
+}
 .project-name {
 	position: absolute;
 	top: 140px;
@@ -165,9 +188,10 @@
 }
 
 .github-icon {
+	transition: scale 0.3s ease;
 	width: 100%;
 	height: 100%;
-	transition: scale 0.3s ease;
+	object-fit: cover;
 }
 
 .github-icon:hover {
@@ -184,11 +208,64 @@
 	top: 0;
 }
 
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
+.lines {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	margin: auto;
+	width: 90vw;
+}
+
+.line {
+	position: absolute;
+	width: 1px;
+	height: 100%;
+	top: 0;
+	left: 50%;
+	background: rgba(255, 255, 255, 0.1);
+	overflow: hidden;
+}
+
+.line::after {
+	content: "";
+	display: block;
+	position: absolute;
+	height: 15vh;
+	width: 100%;
+	top: -50%;
+	left: 0;
+	background: linear-gradient(
+		to bottom,
+		rgba(255, 255, 255, 0) 0%,
+		#ffffff 75%,
+		#ffffff 100%
+	);
+	animation: drop 4s 0s infinite;
+	animation-fill-mode: forwards;
+	animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
+}
+
+.line:nth-child(1) {
+	margin-left: -25%;
+}
+.line:nth-child(1)::after {
+	animation-delay: 2s;
+}
+
+.line:nth-child(3) {
+	margin-left: 25%;
+}
+.line:nth-child(3)::after {
+	animation-delay: 2.5s;
+}
+
+@keyframes drop {
+	0% {
+		top: -50%;
+	}
+	100% {
+		top: 110%;
+	}
+}
