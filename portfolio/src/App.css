@@ -208,6 +208,28 @@
 	top: 0;
 }
 
+.scrollUpPopUp {
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+	width: 80px;
+	height: 80px;
+	border-radius: 100%;
+	background-color: rgba(217, 203, 203, 0.5);
+	border: none;
+	z-index: 1;
+	cursor: pointer;
+	transition: background-color 0.4s ease;
+}
+
+.scrollUpPopUp:hover {
+	background-color: rgb(193, 189, 189);
+}
+
+.arrowIcon {
+	width: 100%;
+}
+
 .lines {
 	position: absolute;
 	top: 0;

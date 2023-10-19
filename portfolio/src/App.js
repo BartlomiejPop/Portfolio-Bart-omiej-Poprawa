@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import "./App.css";
 import photo from "./images/photo.jpg";
 import arrowDown from "./icons/arrow-down.svg";
@@ -6,15 +7,58 @@ import github from "./icons/github.svg";
 import circlesBg from "./images/circlesBackground.png";
 import phonebook from "./images/phonebook.jpg";
 import phonebookBg from "./images/phonebookBg.jpg";
+import React from "react";
 import moviesearchBg from "./images/moviesearchBg.jpg";
 import moviesearch from "./images/moviesearch.jpg";
 import contactbookBg from "./images/contactbookBg.jpg";
 import linkedinLight from "./icons/linkedinLight.svg";
 import githubLight from "./icons/githubLight.svg";
+import arrowUpPopUp from "./icons/arrowUpPopUp.svg";
 
 function App() {
+	function ScrollHandler(number) {
+		const projectWrappers = document.querySelectorAll(".project-wrapper");
+		const nextWrapper = projectWrappers[number];
+		if (nextWrapper) {
+			window.scrollTo({
+				top: nextWrapper.offsetTop,
+				behavior: "smooth",
+			});
+		}
+	}
+
+	const [isVisible, setIsVisible] = useState(false);
+	const scrollUp = () => {
+		const scrollPosition = window.scrollY || window.pageYOffset;
+		setIsVisible(scrollPosition > 0);
+	};
+
+	const scrollToTop = () => {
+		window.scrollTo({
+			top: 0,
+			behavior: "smooth",
+		});
+	};
+
+	useEffect(() => {
+		window.addEventListener("scroll", scrollUp);
+		return () => {
+			window.removeEventListener("scroll", scrollUp);
+		};
+	}, []);
+
 	return (
 		<div className="App">
+			{isVisible && (
+				<button className="scrollUpPopUp">
+					<img
+						src={arrowUpPopUp}
+						className="arrowIcon"
+						alt="scroll up"
+						onClick={scrollToTop}
+					/>
+				</button>
+			)}
 			<header className="App-header">
 				<div className="lines">
 					<div className="line"></div>
@@ -49,7 +93,11 @@ function App() {
 					involved in developing several different applications, using React.js,
 					Node.Js, JavaScript and many more.
 				</p>
-				<div className="header-sign">
+				<div
+					className="header-sign"
+					onClick={() => {
+						ScrollHandler(0);
+					}}>
 					<div className="header-sign-wrapper">
 						<img alt="arrow icon" style={{ width: "30px" }} src={arrowDown} />
 						<span>My Projects </span>
@@ -92,7 +140,11 @@ function App() {
 						</div>
 					</div>
 					<div className="header-sign">
-						<div className="header-sign-wrapper">
+						<div
+							className="header-sign-wrapper"
+							onClick={() => {
+								ScrollHandler(1);
+							}}>
 							<img alt="arrow icon" style={{ width: "30px" }} src={arrowDown} />
 							<span>PHONEBOOK </span>
 							<img alt="arrow icon" style={{ width: "30px" }} src={arrowDown} />
@@ -145,7 +197,11 @@ function App() {
 						</div>
 					</div>
 					<div className="header-sign">
-						<div className="header-sign-wrapper">
+						<div
+							className="header-sign-wrapper"
+							onClick={() => {
+								ScrollHandler(2);
+							}}>
 							<img alt="arrow icon" style={{ width: "30px" }} src={arrowDown} />
 							<span>MOVIESEARCH </span>
 							<img alt="arrow icon" style={{ width: "30px" }} src={arrowDown} />
@@ -201,7 +257,11 @@ function App() {
 						</div>
 					</div>
 					<div className="header-sign">
-						<div className="header-sign-wrapper">
+						<div
+							className="header-sign-wrapper"
+							onClick={() => {
+								ScrollHandler(3);
+							}}>
 							<img alt="arrow icon" style={{ width: "30px" }} src={arrowDown} />
 							<span>MONGODB CONTACTBOOK </span>
 							<img alt="arrow icon" style={{ width: "30px" }} src={arrowDown} />
