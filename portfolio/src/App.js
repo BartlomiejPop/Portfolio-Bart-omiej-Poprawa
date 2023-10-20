@@ -11,6 +11,8 @@ import React from "react";
 import moviesearchBg from "./images/moviesearchBg.jpg";
 import moviesearch from "./images/moviesearch.jpg";
 import contactbookBg from "./images/contactbookBg.jpg";
+import icecreamBg from "./images/icecreamBg.png";
+import icecream from "./images/icecream.jpg";
 import linkedinLight from "./icons/linkedinLight.svg";
 import githubLight from "./icons/githubLight.svg";
 import arrowUpPopUp from "./icons/arrowUpPopUp.svg";
@@ -308,6 +310,62 @@ function App() {
 									style={{ backgroundColor: "rgb(153, 212, 138,0.4)" }}>
 									<a
 										href="https://github.com/BartlomiejPop/REST-API-application"
+										target="_blank"
+										rel="noreferrer">
+										<img alt="ghIcon" className="github-icon" src={github} />
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div className="header-sign">
+						<div
+							className="header-sign-wrapper"
+							onClick={() => {
+								ScrollHandler(4);
+							}}>
+							<img alt="arrow icon" style={{ width: "30px" }} src={arrowDown} />
+							<span>ICE CREAM </span>
+							<img alt="arrow icon" style={{ width: "30px" }} src={arrowDown} />
+						</div>
+					</div>
+				</div>
+				<div className="project-wrapper">
+					<h2 className="project-name" style={{ color: "#5f5e5e" }}>
+						ICE CREAM
+					</h2>
+					<div className="project-container">
+						<img alt="icecreamBg" src={icecreamBg} className="circlesBg" />
+						<div className="icecream-box">
+							<div className="circles-link">
+								<a
+									href="https://github.com/BartlomiejPop/REST-API-application"
+									target="_blank"
+									rel="noreferrer">
+									<img
+										alt="icecream"
+										className="project-image"
+										src={icecream}
+									/>
+								</a>
+							</div>
+							<div className="circles-description">
+								<p
+									className="project-description"
+									style={{
+										color: "#5f5e5e",
+										backgroundColor: "rgb(255, 255, 255,0.4)",
+										fontSize: "15px",
+									}}>
+									Simple project developed in a group of programmers. Workflow
+									done in agile, everyday Scrum meetings and connecting ever
+									member's git branches.
+								</p>
+								<div
+									className="circles-gitHub"
+									style={{ backgroundColor: "rgb(255, 255, 255,0.4)" }}>
+									<a
+										href="https://github.com/KamilD90/projekt-grupa-3"
 										target="_blank"
 										rel="noreferrer">
 										<img alt="ghIcon" className="github-icon" src={github} />

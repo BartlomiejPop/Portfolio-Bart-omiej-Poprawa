@@ -104,7 +104,8 @@
 .circles-box,
 .phonebook-box,
 .moviesearch-box,
-.contactbook-box {
+.contactbook-box,
+.icecream-box {
 	border-radius: 10px;
 	overflow: hidden;
 	height: 400px;
@@ -135,6 +136,11 @@
 	-webkit-box-shadow: 0px 0px 43px -8px rgb(153, 212, 138);
 	-moz-box-shadow: 0px 0px 43px -8px rgb(153, 212, 138);
 	box-shadow: 0px 0px 43px -8px rgb(153, 212, 138);
+}
+.icecream-box:hover {
+	-webkit-box-shadow: 0px 0px 43px -8px rgb(153, 212, 138);
+	-moz-box-shadow: 0px 0px 43px -8px rgb(153, 212, 138);
+	box-shadow: 0px 0px 43px 15px rgb(252, 252, 252);
 }
 
 .circles-link {
