@@ -60,6 +60,19 @@
 	opacity: 0.5;
 }
 
+.header-sign-last {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	color: #969494;
+	font-size: 40px;
+	background-color: #e4dede;
+	position: absolute;
+	bottom: 0;
+	padding: 15px;
+	opacity: 0.5;
+}
+
 .header-sign:hover {
 	background-color: #d1caca;
 	opacity: 1;
@@ -105,13 +118,20 @@
 .phonebook-box,
 .moviesearch-box,
 .contactbook-box,
-.icecream-box {
+.icecream-box,
+.walletapp-box {
 	border-radius: 10px;
 	overflow: hidden;
 	height: 400px;
 	width: 600px;
 	border: 3px solid rgb(190, 188, 188);
 	transition: all 0.3s ease;
+}
+
+.walletapp-box:hover {
+	-webkit-box-shadow: 0px 0px 54px 0px rgb(191, 51, 206);
+	-moz-box-shadow: 0px 0px 54px 0px rgb(191, 51, 206);
+	box-shadow: 0px 0px 30px -5px rgb(101, 17, 143);
 }
 
 .circles-box:hover {

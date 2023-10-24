@@ -16,6 +16,8 @@ import icecream from "./images/icecream.jpg";
 import linkedinLight from "./icons/linkedinLight.svg";
 import githubLight from "./icons/githubLight.svg";
 import arrowUpPopUp from "./icons/arrowUpPopUp.svg";
+import walletappBg from "./images/walletappBg.jpg";
+import walletapp from "./images/walletapp.jpg";
 
 function App() {
 	function ScrollHandler(number) {
@@ -90,10 +92,10 @@ function App() {
 				</div>
 				<span className="name">Bartłomiej Poprawa</span>
 				<p className="header-description">
-					With strong university background and ability to progress I am willing
-					to encounter professional expectations. During my studies, I was
+					With strong university background and after accomplishing fullstack
+					developer I am presenting my portfolio. During my studies, I was
 					involved in developing several different applications, using React.js,
-					Node.Js, JavaScript and many more.
+					Node.Js, JavaScript, Git and many more.
 				</p>
 				<div
 					className="header-sign"
@@ -241,9 +243,9 @@ function App() {
 										backgroundColor: " rgb(227, 100, 50,0.7)",
 										fontSize: "14px",
 									}}>
-									Application depended on choosing a movie created by the group
-									of programmers in which I took role as a programmer. App
-									component with Public and Private routes, AuthPage page logic.
+									Application based on choosing a movie created by the group of
+									programmers. App component with Public and Private routes,
+									AuthPage page logic. Connected to Google's Firebase database
 								</p>
 								<div
 									className="circles-gitHub"
@@ -325,6 +327,63 @@ function App() {
 								ScrollHandler(4);
 							}}>
 							<img alt="arrow icon" style={{ width: "30px" }} src={arrowDown} />
+							<span>WALLET-APP </span>
+							<img alt="arrow icon" style={{ width: "30px" }} src={arrowDown} />
+						</div>
+					</div>
+				</div>
+				<div className="project-wrapper">
+					<h2 className="project-name" style={{ color: "#5f5e5e" }}>
+						WALLET-APP
+					</h2>
+					<div className="project-container">
+						<img alt="walletappBg" src={walletappBg} className="circlesBg" />
+						<div className="walletapp-box">
+							<div className="circles-link">
+								<a
+									href="https://bartlomiejpop.github.io/Wallet-App/"
+									target="_blank"
+									rel="noreferrer">
+									<img
+										alt="walletapp"
+										className="project-image"
+										src={walletapp}
+									/>
+								</a>
+							</div>
+							<div className="circles-description">
+								<p
+									className="project-description"
+									style={{
+										color: "#5f5e5e",
+										backgroundColor: "rgb(255, 255, 255,0.4)",
+										fontSize: "14px",
+									}}>
+									Cash managment app developed by group of programmers.
+									Authentication system with private routes and MongoDB
+									database. Made using React toolkit and Node.js Express
+									framework.
+								</p>
+								<div
+									className="circles-gitHub"
+									style={{ backgroundColor: "rgb(255, 255, 255,0.4)" }}>
+									<a
+										href="https://github.com/BartlomiejPop/Wallet-App"
+										target="_blank"
+										rel="noreferrer">
+										<img alt="ghIcon" className="github-icon" src={github} />
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div className="header-sign">
+						<div
+							className="header-sign-wrapper"
+							onClick={() => {
+								ScrollHandler(5);
+							}}>
+							<img alt="arrow icon" style={{ width: "30px" }} src={arrowDown} />
 							<span>ICE CREAM </span>
 							<img alt="arrow icon" style={{ width: "30px" }} src={arrowDown} />
 						</div>
@@ -339,7 +398,7 @@ function App() {
 						<div className="icecream-box">
 							<div className="circles-link">
 								<a
-									href="https://github.com/BartlomiejPop/REST-API-application"
+									href="https://kamild90.github.io/projekt-grupa-3/#"
 									target="_blank"
 									rel="noreferrer">
 									<img
@@ -358,7 +417,7 @@ function App() {
 										fontSize: "15px",
 									}}>
 									Simple project developed in a group of programmers. Workflow
-									done in agile, everyday Scrum meetings and connecting ever
+									done in agile, everyday Scrum meetings and merging every
 									member's git branches.
 								</p>
 								<div
@@ -374,10 +433,10 @@ function App() {
 							</div>
 						</div>
 					</div>
-					<div className="header-sign">
+					<div className="header-sign-last">
 						<div className="header-sign-wrapper">
 							<img alt="arrow icon" style={{ width: "30px" }} src={arrowDown} />
-							<span>MOVIESEARCH </span>
+							<span>AND MORE IN THE FUTURE </span>
 							<img alt="arrow icon" style={{ width: "30px" }} src={arrowDown} />
 						</div>
 					</div>
