@@ -470,6 +470,13 @@ function App() {
 								</div>
 								<div className="technology">
 									<img
+										alt="javascriptIcon"
+										className="technologyIcon"
+										src={mongoDb}
+									/>
+								</div>
+								<div className="technology">
+									<img
 										alt="technologyIcon"
 										className="technologyIcon"
 										src={javascript}
@@ -683,7 +690,7 @@ function App() {
 					<div className="header-sign-last">
 						<div className="header-sign-wrapper">
 							<img alt="arrow icon" style={{ width: "30px" }} src={arrowDown} />
-							<span>AND MORE IN THE FUTURE </span>
+							<span>AND MORE IN THE FUTURE! </span>
 							<img alt="arrow icon" style={{ width: "30px" }} src={arrowDown} />
 						</div>
 					</div>
