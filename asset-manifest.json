@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-Bart-omiej-Poprawa/static/css/main.bab42f92.css",
-    "main.js": "/Portfolio-Bart-omiej-Poprawa/static/js/main.43de7a1b.js",
+    "main.js": "/Portfolio-Bart-omiej-Poprawa/static/js/main.11070949.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio-Bart-omiej-Poprawa/static/js/787.1ed0c42c.chunk.js",
     "static/media/icecreamBg.png": "/Portfolio-Bart-omiej-Poprawa/static/media/icecreamBg.f28316ea0114570d1f50.png",
     "static/media/moviesearch.jpg": "/Portfolio-Bart-omiej-Poprawa/static/media/moviesearch.933f364bbc2aa51ae0ad.jpg",
@@ -32,11 +32,11 @@
     "static/media/firebase.svg": "/Portfolio-Bart-omiej-Poprawa/static/media/firebase.ffcf128bc13892d6266e4dc97beecf43.svg",
     "static/media/arrow-down.svg": "/Portfolio-Bart-omiej-Poprawa/static/media/arrow-down.be58a60f09e579d727825ab3744892e9.svg",
     "main.bab42f92.css.map": "/Portfolio-Bart-omiej-Poprawa/static/css/main.bab42f92.css.map",
-    "main.43de7a1b.js.map": "/Portfolio-Bart-omiej-Poprawa/static/js/main.43de7a1b.js.map",
+    "main.11070949.js.map": "/Portfolio-Bart-omiej-Poprawa/static/js/main.11070949.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio-Bart-omiej-Poprawa/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bab42f92.css",
-    "static/js/main.43de7a1b.js"
+    "static/js/main.11070949.js"
   ]
 }
