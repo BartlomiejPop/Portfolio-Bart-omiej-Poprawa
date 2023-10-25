@@ -138,7 +138,7 @@
 	width: 50%;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1600px) {
 	.header-sign-wrapper {
 		width: 100%;
 		text-align: center;
@@ -457,11 +457,78 @@
 	animation-delay: 2.5s;
 }
 
+.technologies-wrapper {
+	text-align: center;
+	gap: 20px;
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	bottom: 140px;
+	animation: display 1.2s;
+}
+
+@media (max-width: 1280px) {
+	.technologies-wrapper {
+		bottom: 100px;
+		gap: 5px;
+	}
+}
+
+.technologies {
+	display: flex;
+	justify-content: center;
+	gap: 50px;
+}
+
+@media (max-width: 1280px) {
+	.technologies {
+		gap: 20px;
+	}
+}
+
+.technology {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 80px;
+	height: 80px;
+	background-color: rgb(202, 198, 194, 0.5);
+	border: 2px solid rgb(221, 220, 220, 0.5);
+	border-radius: 10px;
+}
+
+@media (max-width: 1280px) {
+	.technology {
+		width: 40px;
+		height: 40px;
+	}
+}
+
+.technologyIcon {
+	opacity: 0.7;
+	width: 80%;
+	height: 80%;
+}
+
+.showUp {
+	opacity: 0;
+}
+
 @keyframes drop {
 	0% {
 		top: -50%;
 	}
 	100% {
 		top: 110%;
+	}
+}
+@keyframes display {
+	0% {
+		opacity: 0;
+		bottom: 80px;
+	}
+	100% {
+		opacity: 1;
+		bottom: 140px;
 	}
 }

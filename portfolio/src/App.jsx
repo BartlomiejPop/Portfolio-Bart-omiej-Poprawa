@@ -18,20 +18,44 @@ import githubLight from "./icons/githubLight.svg";
 import arrowUpPopUp from "./icons/arrowUpPopUp.svg";
 import walletappBg from "./images/walletappBg.jpg";
 import walletapp from "./images/walletapp.jpg";
+import css from "./icons/css.svg";
+import firebase from "./icons/firebase.svg";
+import git from "./icons/git.svg";
+import html from "./icons/html.svg";
+import javascript from "./icons/javascript.svg";
+import mongoDb from "./icons/mongoDb.svg";
+import node from "./icons/node.svg";
+import react from "./icons/react.svg";
+import redux from "./icons/redux.svg";
+import sass from "./icons/sass.svg";
 
 function App() {
+	const [isVisible, setIsVisible] = useState(false);
+	const [showTechnologies, setShowTechnologies] = useState(true);
+
 	function ScrollHandler(number) {
 		const projectWrappers = document.querySelectorAll(".project-wrapper");
-		const nextWrapper = projectWrappers[number];
-		if (nextWrapper) {
+		const technologies = document.querySelectorAll(".technologies");
+		const nextProjectWrapper = projectWrappers[number];
+		const nextTechnologies = technologies[number];
+		const particulartechnologies = Array.from(nextTechnologies.children);
+
+		if (nextProjectWrapper) {
+			setTimeout(function () {
+				setShowTechnologies(false);
+			}, 100);
+
+			setTimeout(function () {
+				setShowTechnologies(true);
+			}, 500);
+
 			window.scrollTo({
-				top: nextWrapper.offsetTop,
+				top: nextProjectWrapper.offsetTop,
 				behavior: "smooth",
 			});
 		}
 	}
 
-	const [isVisible, setIsVisible] = useState(false);
 	const scrollUp = () => {
 		const scrollPosition = window.scrollY || window.pageYOffset;
 		setIsVisible(scrollPosition > 0);
@@ -143,12 +167,47 @@ function App() {
 							</div>
 						</div>
 					</div>
-					<div className="header-sign">
-						<div
-							className="header-sign-wrapper"
-							onClick={() => {
-								ScrollHandler(1);
-							}}>
+					{showTechnologies && (
+						<div className="technologies-wrapper">
+							<span>TECHNOLOGIES</span>
+							<div className="technologies">
+								<div className="technology">
+									<img
+										alt="javascriptIcon"
+										className="technologyIcon"
+										src={javascript}
+									/>
+								</div>
+								<div className="technology">
+									<img
+										alt="technologyIcon"
+										className="technologyIcon"
+										src={firebase}
+									/>
+								</div>
+								<div className="technology">
+									<img
+										alt="technologyIcon"
+										className="technologyIcon"
+										src={html}
+									/>
+								</div>
+								<div className="technology">
+									<img
+										alt="technologyIcon"
+										className="technologyIcon"
+										src={css}
+									/>
+								</div>
+							</div>
+						</div>
+					)}
+					<div
+						className="header-sign"
+						onClick={() => {
+							ScrollHandler(1);
+						}}>
+						<div className="header-sign-wrapper">
 							<img alt="arrow icon" style={{ width: "30px" }} src={arrowDown} />
 							<span>PHONEBOOK </span>
 							<img alt="arrow icon" style={{ width: "30px" }} src={arrowDown} />
@@ -199,12 +258,54 @@ function App() {
 							</div>
 						</div>
 					</div>
-					<div className="header-sign">
-						<div
-							className="header-sign-wrapper"
-							onClick={() => {
-								ScrollHandler(2);
-							}}>
+					{showTechnologies && (
+						<div className="technologies-wrapper">
+							<span>TECHNOLOGIES</span>
+							<div className="technologies">
+								<div className="technology">
+									<img
+										alt="javascriptIcon"
+										className="technologyIcon"
+										src={react}
+									/>
+								</div>
+								<div className="technology">
+									<img
+										alt="technologyIcon"
+										className="technologyIcon"
+										src={redux}
+									/>
+								</div>
+								<div className="technology">
+									<img
+										alt="technologyIcon"
+										className="technologyIcon"
+										src={javascript}
+									/>
+								</div>
+								<div className="technology">
+									<img
+										alt="technologyIcon"
+										className="technologyIcon"
+										src={css}
+									/>
+								</div>
+								<div className="technology">
+									<img
+										alt="technologyIcon"
+										className="technologyIcon"
+										src={html}
+									/>
+								</div>
+							</div>
+						</div>
+					)}
+					<div
+						className="header-sign"
+						onClick={() => {
+							ScrollHandler(2);
+						}}>
+						<div className="header-sign-wrapper">
 							<img alt="arrow icon" style={{ width: "30px" }} src={arrowDown} />
 							<span>MOVIESEARCH </span>
 							<img alt="arrow icon" style={{ width: "30px" }} src={arrowDown} />
@@ -258,12 +359,54 @@ function App() {
 							</div>
 						</div>
 					</div>
-					<div className="header-sign">
-						<div
-							className="header-sign-wrapper"
-							onClick={() => {
-								ScrollHandler(3);
-							}}>
+					{showTechnologies && (
+						<div className="technologies-wrapper">
+							<span>TECHNOLOGIES</span>
+							<div className="technologies">
+								<div className="technology">
+									<img
+										alt="javascriptIcon"
+										className="technologyIcon"
+										src={firebase}
+									/>
+								</div>
+								<div className="technology">
+									<img
+										alt="technologyIcon"
+										className="technologyIcon"
+										src={git}
+									/>
+								</div>
+								<div className="technology">
+									<img
+										alt="technologyIcon"
+										className="technologyIcon"
+										src={javascript}
+									/>
+								</div>
+								<div className="technology">
+									<img
+										alt="technologyIcon"
+										className="technologyIcon"
+										src={html}
+									/>
+								</div>
+								<div className="technology">
+									<img
+										alt="technologyIcon"
+										className="technologyIcon"
+										src={sass}
+									/>
+								</div>
+							</div>
+						</div>
+					)}
+					<div
+						className="header-sign"
+						onClick={() => {
+							ScrollHandler(3);
+						}}>
+						<div className="header-sign-wrapper">
 							<img alt="arrow icon" style={{ width: "30px" }} src={arrowDown} />
 							<span>MONGODB CONTACTBOOK </span>
 							<img alt="arrow icon" style={{ width: "30px" }} src={arrowDown} />
@@ -317,12 +460,33 @@ function App() {
 							</div>
 						</div>
 					</div>
-					<div className="header-sign">
-						<div
-							className="header-sign-wrapper"
-							onClick={() => {
-								ScrollHandler(4);
-							}}>
+					{showTechnologies && (
+						<div className="technologies-wrapper">
+							<span>TECHNOLOGIES</span>
+							<div className="technologies">
+								<div className="technology">
+									<img
+										alt="javascriptIcon"
+										className="technologyIcon"
+										src={node}
+									/>
+								</div>
+								<div className="technology">
+									<img
+										alt="technologyIcon"
+										className="technologyIcon"
+										src={javascript}
+									/>
+								</div>
+							</div>
+						</div>
+					)}
+					<div
+						className="header-sign"
+						onClick={() => {
+							ScrollHandler(4);
+						}}>
+						<div className="header-sign-wrapper">
 							<img alt="arrow icon" style={{ width: "30px" }} src={arrowDown} />
 							<span>WALLET-APP </span>
 							<img alt="arrow icon" style={{ width: "30px" }} src={arrowDown} />
@@ -373,12 +537,68 @@ function App() {
 							</div>
 						</div>
 					</div>
-					<div className="header-sign">
-						<div
-							className="header-sign-wrapper"
-							onClick={() => {
-								ScrollHandler(5);
-							}}>
+					{showTechnologies && (
+						<div className="technologies-wrapper">
+							<span>TECHNOLOGIES</span>
+							<div className="technologies">
+								<div className="technology">
+									<img
+										alt="javascriptIcon"
+										className="technologyIcon"
+										src={node}
+									/>
+								</div>
+								<div className="technology">
+									<img
+										alt="javascriptIcon"
+										className="technologyIcon"
+										src={mongoDb}
+									/>
+								</div>
+								<div className="technology">
+									<img
+										alt="technologyIcon"
+										className="technologyIcon"
+										src={react}
+									/>
+								</div>
+								<div className="technology">
+									<img
+										alt="technologyIcon"
+										className="technologyIcon"
+										src={redux}
+									/>
+								</div>
+								<div className="technology">
+									<img
+										alt="technologyIcon"
+										className="technologyIcon"
+										src={javascript}
+									/>
+								</div>
+								<div className="technology">
+									<img
+										alt="technologyIcon"
+										className="technologyIcon"
+										src={git}
+									/>
+								</div>
+								<div className="technology">
+									<img
+										alt="technologyIcon"
+										className="technologyIcon"
+										src={css}
+									/>
+								</div>
+							</div>
+						</div>
+					)}
+					<div
+						className="header-sign"
+						onClick={() => {
+							ScrollHandler(5);
+						}}>
+						<div className="header-sign-wrapper">
 							<img alt="arrow icon" style={{ width: "30px" }} src={arrowDown} />
 							<span>ICE CREAM </span>
 							<img alt="arrow icon" style={{ width: "30px" }} src={arrowDown} />
@@ -428,6 +648,41 @@ function App() {
 							</div>
 						</div>
 					</div>
+					{showTechnologies && (
+						<div className="technologies-wrapper">
+							<span>TECHNOLOGIES</span>
+							<div className="technologies">
+								<div className="technology">
+									<img
+										alt="javascriptIcon"
+										className="technologyIcon"
+										src={javascript}
+									/>
+								</div>
+								<div className="technology">
+									<img
+										alt="javascriptIcon"
+										className="technologyIcon"
+										src={html}
+									/>
+								</div>
+								<div className="technology">
+									<img
+										alt="technologyIcon"
+										className="technologyIcon"
+										src={git}
+									/>
+								</div>
+								<div className="technology">
+									<img
+										alt="technologyIcon"
+										className="technologyIcon"
+										src={sass}
+									/>
+								</div>
+							</div>
+						</div>
+					)}
 					<div className="header-sign-last">
 						<div className="header-sign-wrapper">
 							<img alt="arrow icon" style={{ width: "30px" }} src={arrowDown} />
