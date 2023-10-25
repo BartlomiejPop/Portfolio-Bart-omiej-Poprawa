@@ -1,14 +1,18 @@
 {
   "files": {
-    "main.css": "/Portfolio-Bart-omiej-Poprawa/static/css/main.e3473ab3.css",
-    "main.js": "/Portfolio-Bart-omiej-Poprawa/static/js/main.35266b64.js",
+    "main.css": "/Portfolio-Bart-omiej-Poprawa/static/css/main.edf4e5d2.css",
+    "main.js": "/Portfolio-Bart-omiej-Poprawa/static/js/main.7034c920.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio-Bart-omiej-Poprawa/static/js/787.1ed0c42c.chunk.js",
+    "static/media/icecreamBg.png": "/Portfolio-Bart-omiej-Poprawa/static/media/icecreamBg.f28316ea0114570d1f50.png",
     "static/media/moviesearch.jpg": "/Portfolio-Bart-omiej-Poprawa/static/media/moviesearch.933f364bbc2aa51ae0ad.jpg",
     "static/media/photo.jpg": "/Portfolio-Bart-omiej-Poprawa/static/media/photo.fd7356cbd026c764df2b.jpg",
     "static/media/moviesearchBg.jpg": "/Portfolio-Bart-omiej-Poprawa/static/media/moviesearchBg.30a43113e52054defdef.jpg",
     "static/media/circlesBackground.png": "/Portfolio-Bart-omiej-Poprawa/static/media/circlesBackground.6cd42a5fa9b4b500b8fe.png",
+    "static/media/icecream.jpg": "/Portfolio-Bart-omiej-Poprawa/static/media/icecream.fe3ffba804e1518624cf.jpg",
     "static/media/phonebookBg.jpg": "/Portfolio-Bart-omiej-Poprawa/static/media/phonebookBg.0aa2abb784e7b20ce712.jpg",
+    "static/media/walletappBg.jpg": "/Portfolio-Bart-omiej-Poprawa/static/media/walletappBg.66b74aa8956652fe7eed.jpg",
     "static/media/circles.jpg": "/Portfolio-Bart-omiej-Poprawa/static/media/circles.21259f4b5d46f6d91ef8.jpg",
+    "static/media/walletapp.jpg": "/Portfolio-Bart-omiej-Poprawa/static/media/walletapp.fec868750d53a012eadd.jpg",
     "static/media/contactbookBg.jpg": "/Portfolio-Bart-omiej-Poprawa/static/media/contactbookBg.0a7050dc8683ac18de55.jpg",
     "static/media/phonebook.jpg": "/Portfolio-Bart-omiej-Poprawa/static/media/phonebook.d1c017c46765835768d0.jpg",
     "static/media/linkedinLight.svg": "/Portfolio-Bart-omiej-Poprawa/static/media/linkedinLight.226e5f14ce96f7b0dfef543ff3a5dac1.svg",
@@ -17,12 +21,12 @@
     "index.html": "/Portfolio-Bart-omiej-Poprawa/index.html",
     "static/media/arrowUpPopUp.svg": "/Portfolio-Bart-omiej-Poprawa/static/media/arrowUpPopUp.8d3e27c93bc169fe94bc74fddcd51cff.svg",
     "static/media/arrow-down.svg": "/Portfolio-Bart-omiej-Poprawa/static/media/arrow-down.be58a60f09e579d727825ab3744892e9.svg",
-    "main.e3473ab3.css.map": "/Portfolio-Bart-omiej-Poprawa/static/css/main.e3473ab3.css.map",
-    "main.35266b64.js.map": "/Portfolio-Bart-omiej-Poprawa/static/js/main.35266b64.js.map",
+    "main.edf4e5d2.css.map": "/Portfolio-Bart-omiej-Poprawa/static/css/main.edf4e5d2.css.map",
+    "main.7034c920.js.map": "/Portfolio-Bart-omiej-Poprawa/static/js/main.7034c920.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio-Bart-omiej-Poprawa/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3473ab3.css",
-    "static/js/main.35266b64.js"
+    "static/css/main.edf4e5d2.css",
+    "static/js/main.7034c920.js"
   ]
 }
