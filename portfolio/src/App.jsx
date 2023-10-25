@@ -93,9 +93,9 @@ function App() {
 				<span className="name">Bartłomiej Poprawa</span>
 				<p className="header-description">
 					With strong university background and after accomplishing fullstack
-					developer I am presenting my portfolio. During my studies, I was
-					involved in developing several different applications, using React.js,
-					Node.Js, JavaScript, Git and many more.
+					developer course I am presenting my portfolio. During my studies, I
+					was involved in developing several different applications, using
+					React.js, Node.Js, JavaScript, Git and many more.
 				</p>
 				<div
 					className="header-sign"
@@ -117,7 +117,7 @@ function App() {
 					<div className="project-container">
 						<img alt="bg" src={circlesBg} className="circlesBg" />
 						<div className="circles-box">
-							<div className="circles-link">
+							<div className="page-link">
 								<a
 									href="https://bartlomiejpop.github.io/circles-ranking/"
 									target="_blank"
@@ -162,7 +162,7 @@ function App() {
 					<div className="project-container">
 						<img alt="bg" src={phonebookBg} className="circlesBg" />
 						<div className="phonebook-box">
-							<div className="circles-link">
+							<div className="page-link">
 								<a
 									href="https://bartlomiejpop.github.io/goit-react-hw-08-phonebook/"
 									target="_blank"
@@ -180,7 +180,6 @@ function App() {
 									style={{
 										color: "#5f5e5e",
 										backgroundColor: " #e6dfdf",
-										fontSize: "13px",
 									}}>
 									Single page application based on React-router. Project built
 									with Redux toolkit architecture and lazy-loaded components.
@@ -223,7 +222,7 @@ function App() {
 							className="circlesBg"
 						/>
 						<div className="moviesearch-box">
-							<div className="circles-link">
+							<div className="page-link">
 								<a
 									href="https://michalmazurdev.github.io/team-project-filmoteka/index.html"
 									target="_blank"
@@ -241,7 +240,6 @@ function App() {
 									style={{
 										color: "#fff",
 										backgroundColor: " rgb(227, 100, 50,0.7)",
-										fontSize: "14px",
 									}}>
 									Application based on choosing a movie created by the group of
 									programmers. App component with Public and Private routes,
@@ -283,7 +281,7 @@ function App() {
 							className="circlesBg"
 						/>
 						<div className="contactbook-box">
-							<div className="circles-link">
+							<div className="page-link">
 								<a
 									href="https://github.com/BartlomiejPop/REST-API-application"
 									target="_blank"
@@ -301,7 +299,6 @@ function App() {
 									style={{
 										color: "#5f5e5e",
 										backgroundColor: "rgb(153, 212, 138,0.4)",
-										fontSize: "15px",
 									}}>
 									Rest API application developed with Express.js and MongoDB
 									database. Authentication system. Endpoints described to allow
@@ -339,7 +336,7 @@ function App() {
 					<div className="project-container">
 						<img alt="walletappBg" src={walletappBg} className="circlesBg" />
 						<div className="walletapp-box">
-							<div className="circles-link">
+							<div className="page-link">
 								<a
 									href="https://bartlomiejpop.github.io/Wallet-App/"
 									target="_blank"
@@ -357,7 +354,6 @@ function App() {
 									style={{
 										color: "#5f5e5e",
 										backgroundColor: "rgb(255, 255, 255,0.4)",
-										fontSize: "14px",
 									}}>
 									Cash managment app developed by group of programmers.
 									Authentication system with private routes and MongoDB
@@ -396,7 +392,7 @@ function App() {
 					<div className="project-container">
 						<img alt="icecreamBg" src={icecreamBg} className="circlesBg" />
 						<div className="icecream-box">
-							<div className="circles-link">
+							<div className="page-link">
 								<a
 									href="https://kamild90.github.io/projekt-grupa-3/#"
 									target="_blank"
@@ -414,7 +410,6 @@ function App() {
 									style={{
 										color: "#5f5e5e",
 										backgroundColor: "rgb(255, 255, 255,0.4)",
-										fontSize: "15px",
 									}}>
 									Simple project developed in a group of programmers. Workflow
 									done in agile, everyday Scrum meetings and merging every
