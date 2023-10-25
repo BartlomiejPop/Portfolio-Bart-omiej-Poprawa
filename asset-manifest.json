@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio-Bart-omiej-Poprawa/static/css/main.edf4e5d2.css",
-    "main.js": "/Portfolio-Bart-omiej-Poprawa/static/js/main.7034c920.js",
+    "main.css": "/Portfolio-Bart-omiej-Poprawa/static/css/main.bab42f92.css",
+    "main.js": "/Portfolio-Bart-omiej-Poprawa/static/js/main.43de7a1b.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio-Bart-omiej-Poprawa/static/js/787.1ed0c42c.chunk.js",
     "static/media/icecreamBg.png": "/Portfolio-Bart-omiej-Poprawa/static/media/icecreamBg.f28316ea0114570d1f50.png",
     "static/media/moviesearch.jpg": "/Portfolio-Bart-omiej-Poprawa/static/media/moviesearch.933f364bbc2aa51ae0ad.jpg",
@@ -15,18 +15,28 @@
     "static/media/walletapp.jpg": "/Portfolio-Bart-omiej-Poprawa/static/media/walletapp.fec868750d53a012eadd.jpg",
     "static/media/contactbookBg.jpg": "/Portfolio-Bart-omiej-Poprawa/static/media/contactbookBg.0a7050dc8683ac18de55.jpg",
     "static/media/phonebook.jpg": "/Portfolio-Bart-omiej-Poprawa/static/media/phonebook.d1c017c46765835768d0.jpg",
+    "static/media/react.svg": "/Portfolio-Bart-omiej-Poprawa/static/media/react.b092ad79d6b9f2bf199975b337138927.svg",
+    "static/media/sass.svg": "/Portfolio-Bart-omiej-Poprawa/static/media/sass.94224c3361dfb56dcfe0127bc829b733.svg",
+    "static/media/node.svg": "/Portfolio-Bart-omiej-Poprawa/static/media/node.9e024b03e4706d324f35c2d860aeff41.svg",
+    "static/media/redux.svg": "/Portfolio-Bart-omiej-Poprawa/static/media/redux.0212214c83d38d0d90d277560ec30ad4.svg",
+    "static/media/javascript.svg": "/Portfolio-Bart-omiej-Poprawa/static/media/javascript.e5818355250f712a79c8297b710977bf.svg",
+    "static/media/git.svg": "/Portfolio-Bart-omiej-Poprawa/static/media/git.890ec924b44c2821c2667459bbaeea25.svg",
+    "static/media/css.svg": "/Portfolio-Bart-omiej-Poprawa/static/media/css.50ae92afcfb5437d79cba5c9870f847d.svg",
+    "static/media/html.svg": "/Portfolio-Bart-omiej-Poprawa/static/media/html.10a58682adde3b5e6f2be37de92758cf.svg",
     "static/media/linkedinLight.svg": "/Portfolio-Bart-omiej-Poprawa/static/media/linkedinLight.226e5f14ce96f7b0dfef543ff3a5dac1.svg",
     "static/media/githubLight.svg": "/Portfolio-Bart-omiej-Poprawa/static/media/githubLight.9bd02fe8c1f12f27968316b10f373754.svg",
+    "static/media/mongoDb.svg": "/Portfolio-Bart-omiej-Poprawa/static/media/mongoDb.9b4df7b9f53a3039990c289e2d318c78.svg",
     "static/media/github.svg": "/Portfolio-Bart-omiej-Poprawa/static/media/github.711d5ce29ae4f1c29449327ae7f376c4.svg",
     "index.html": "/Portfolio-Bart-omiej-Poprawa/index.html",
     "static/media/arrowUpPopUp.svg": "/Portfolio-Bart-omiej-Poprawa/static/media/arrowUpPopUp.8d3e27c93bc169fe94bc74fddcd51cff.svg",
+    "static/media/firebase.svg": "/Portfolio-Bart-omiej-Poprawa/static/media/firebase.ffcf128bc13892d6266e4dc97beecf43.svg",
     "static/media/arrow-down.svg": "/Portfolio-Bart-omiej-Poprawa/static/media/arrow-down.be58a60f09e579d727825ab3744892e9.svg",
-    "main.edf4e5d2.css.map": "/Portfolio-Bart-omiej-Poprawa/static/css/main.edf4e5d2.css.map",
-    "main.7034c920.js.map": "/Portfolio-Bart-omiej-Poprawa/static/js/main.7034c920.js.map",
+    "main.bab42f92.css.map": "/Portfolio-Bart-omiej-Poprawa/static/css/main.bab42f92.css.map",
+    "main.43de7a1b.js.map": "/Portfolio-Bart-omiej-Poprawa/static/js/main.43de7a1b.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio-Bart-omiej-Poprawa/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.edf4e5d2.css",
-    "static/js/main.7034c920.js"
+    "static/css/main.bab42f92.css",
+    "static/js/main.43de7a1b.js"
   ]
 }
