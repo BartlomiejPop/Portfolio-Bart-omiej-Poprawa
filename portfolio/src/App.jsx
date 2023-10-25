@@ -35,10 +35,7 @@ function App() {
 
 	function ScrollHandler(number) {
 		const projectWrappers = document.querySelectorAll(".project-wrapper");
-		const technologies = document.querySelectorAll(".technologies");
 		const nextProjectWrapper = projectWrappers[number];
-		const nextTechnologies = technologies[number];
-		const particulartechnologies = Array.from(nextTechnologies.children);
 
 		if (nextProjectWrapper) {
 			setTimeout(function () {
