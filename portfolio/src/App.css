@@ -176,7 +176,8 @@
 .moviesearch-box,
 .contactbook-box,
 .icecream-box,
-.walletapp-box {
+.walletapp-box,
+.soYummy-box {
 	border-radius: 10px;
 	overflow: hidden;
 	height: 400px;
@@ -244,6 +245,12 @@
 	box-shadow: 0px 0px 43px 15px rgb(252, 252, 252);
 }
 
+.soYummy-box:hover {
+	-webkit-box-shadow: 0px 0px 43px -8px rgb(153, 212, 138);
+	-moz-box-shadow: 0px 0px 43px -8px rgb(153, 212, 138);
+	box-shadow: 0px 0px 30px 4px #8baa36;
+}
+
 .page-link {
 	height: 75%;
 	border-bottom: 3px solid rgb(190, 188, 188);
@@ -261,6 +268,13 @@
 	color: rgb(190, 188, 188);
 	background-color: black;
 	font-size: 14px;
+}
+
+.soYummy-description {
+	padding: 10px 15px;
+	color: rgb(0, 0, 0);
+	background-color: #8cab37;
+	font-size: 12px;
 }
 
 @media (max-width: 768px) {
@@ -352,6 +366,10 @@
 	height: 100%;
 	object-fit: cover;
 }
+
+/* .soYummy-github-icon {
+	transition: scale 0.3s ease;
+} */
 
 @media (max-width: 768px) {
 	.github-icon {

@@ -18,6 +18,8 @@ import githubLight from "./icons/githubLight.svg";
 import arrowUpPopUp from "./icons/arrowUpPopUp.svg";
 import walletappBg from "./images/walletappBg.jpg";
 import walletapp from "./images/walletapp.jpg";
+import soYummy from "./images/soYummy.jpg";
+import soYummyBg from "./images/soYummyBg.jpg";
 import css from "./icons/css.svg";
 import firebase from "./icons/firebase.svg";
 import git from "./icons/git.svg";
@@ -132,6 +134,94 @@ function App() {
 			</header>
 			<div>
 				<div className="project-wrapper">
+					<h2 className="project-name" style={{ color: " #8cab37" }}>
+						SO YUMMY
+					</h2>
+					<div className="project-container">
+						<img alt="bg" src={soYummyBg} className="circlesBg" />
+						<div className="soYummy-box">
+							<div className="page-link">
+								<a
+									href="https://bartlomiejpop.github.io/So-Yummy-frontend/"
+									target="_blank"
+									rel="noreferrer">
+									<img alt="project" className="project-image" src={soYummy} />
+								</a>
+							</div>
+							<div className="circles-description">
+								<p className="soYummy-description">
+									Recipe cookbook application. Backend made in node.js. Routes
+									described in Express. Multer implemented to work with
+									files.Data saved in mongoDb database. Frontend made in React
+									and Redux. Authentication logic. Private and public
+									routes.Pages linked to particular routes.
+								</p>
+								<div className="circles-gitHub">
+									<a
+										href="https://github.com/BartlomiejPop/So-Yummy-frontend"
+										target="_blank"
+										rel="noreferrer">
+										<img alt="ghIcon" className="github-icon" src={github} />
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					{showTechnologies && (
+						<div className="technologies-wrapper">
+							<span>TECHNOLOGIES</span>
+							<div className="technologies">
+								<div className="technology">
+									<img
+										alt="technologyIcon"
+										className="technologyIcon"
+										src={mongoDb}
+									/>
+								</div>
+								<div className="technology">
+									<img
+										alt="javascriptIcon"
+										className="technologyIcon"
+										src={javascript}
+									/>
+								</div>
+								<div className="technology">
+									<img
+										alt="technologyIcon"
+										className="technologyIcon"
+										src={node}
+									/>
+								</div>
+								<div className="technology">
+									<img
+										alt="technologyIcon"
+										className="technologyIcon"
+										src={react}
+									/>
+								</div>
+								<div className="technology">
+									<img
+										alt="technologyIcon"
+										className="technologyIcon"
+										src={redux}
+									/>
+								</div>
+							</div>
+						</div>
+					)}
+					<div
+						className="header-sign"
+						onClick={() => {
+							ScrollHandler(1);
+						}}>
+						<div className="header-sign-wrapper">
+							<img alt="arrow icon" style={{ width: "30px" }} src={arrowDown} />
+							<span>PHONEBOOK </span>
+							<img alt="arrow icon" style={{ width: "30px" }} src={arrowDown} />
+						</div>
+					</div>
+				</div>
+				<div className="project-wrapper">
 					<h2 className="project-name" style={{ color: "#d1caca" }}>
 						CIRCLES
 					</h2>
@@ -202,7 +292,7 @@ function App() {
 					<div
 						className="header-sign"
 						onClick={() => {
-							ScrollHandler(1);
+							ScrollHandler(2);
 						}}>
 						<div className="header-sign-wrapper">
 							<img alt="arrow icon" style={{ width: "30px" }} src={arrowDown} />
@@ -300,7 +390,7 @@ function App() {
 					<div
 						className="header-sign"
 						onClick={() => {
-							ScrollHandler(2);
+							ScrollHandler(3);
 						}}>
 						<div className="header-sign-wrapper">
 							<img alt="arrow icon" style={{ width: "30px" }} src={arrowDown} />
@@ -401,7 +491,7 @@ function App() {
 					<div
 						className="header-sign"
 						onClick={() => {
-							ScrollHandler(3);
+							ScrollHandler(4);
 						}}>
 						<div className="header-sign-wrapper">
 							<img alt="arrow icon" style={{ width: "30px" }} src={arrowDown} />
@@ -488,7 +578,7 @@ function App() {
 					<div
 						className="header-sign"
 						onClick={() => {
-							ScrollHandler(4);
+							ScrollHandler(5);
 						}}>
 						<div className="header-sign-wrapper">
 							<img alt="arrow icon" style={{ width: "30px" }} src={arrowDown} />
@@ -600,7 +690,7 @@ function App() {
 					<div
 						className="header-sign"
 						onClick={() => {
-							ScrollHandler(5);
+							ScrollHandler(6);
 						}}>
 						<div className="header-sign-wrapper">
 							<img alt="arrow icon" style={{ width: "30px" }} src={arrowDown} />
