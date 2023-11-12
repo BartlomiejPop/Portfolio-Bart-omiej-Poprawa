@@ -192,7 +192,8 @@
 	.moviesearch-box,
 	.contactbook-box,
 	.icecream-box,
-	.walletapp-box {
+	.walletapp-box,
+	.soYummy-box {
 		height: 300px;
 		width: 400px;
 	}
@@ -204,7 +205,8 @@
 	.moviesearch-box,
 	.contactbook-box,
 	.icecream-box,
-	.walletapp-box {
+	.walletapp-box,
+	.soYummy-box {
 		height: 175px;
 		width: 300px;
 	}
@@ -278,14 +280,16 @@
 }
 
 @media (max-width: 768px) {
-	.project-description {
+	.project-description,
+	.soYummy-description {
 		font-size: 10px;
 		padding: 2px;
 	}
 }
 
 @media (max-width: 480px) {
-	.project-description {
+	.project-description,
+	.soYummy-description {
 		font-size: 7px;
 		padding: 1px;
 	}

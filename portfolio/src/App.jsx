@@ -216,7 +216,7 @@ function App() {
 						}}>
 						<div className="header-sign-wrapper">
 							<img alt="arrow icon" style={{ width: "30px" }} src={arrowDown} />
-							<span>PHONEBOOK </span>
+							<span>CIRCLES </span>
 							<img alt="arrow icon" style={{ width: "30px" }} src={arrowDown} />
 						</div>
 					</div>
