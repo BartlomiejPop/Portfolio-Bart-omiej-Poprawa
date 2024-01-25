@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio-Bart-omiej-Poprawa/static/css/main.ba9ebb15.css",
-    "main.js": "/Portfolio-Bart-omiej-Poprawa/static/js/main.bcf9c97e.js",
+    "main.css": "/Portfolio-Bart-omiej-Poprawa/static/css/main.6231b850.css",
+    "main.js": "/Portfolio-Bart-omiej-Poprawa/static/js/main.3ca32dcc.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio-Bart-omiej-Poprawa/static/js/787.1ed0c42c.chunk.js",
     "static/media/icecreamBg.png": "/Portfolio-Bart-omiej-Poprawa/static/media/icecreamBg.f28316ea0114570d1f50.png",
     "static/media/moviesearch.jpg": "/Portfolio-Bart-omiej-Poprawa/static/media/moviesearch.933f364bbc2aa51ae0ad.jpg",
@@ -15,13 +15,16 @@
     "static/media/walletappBg.jpg": "/Portfolio-Bart-omiej-Poprawa/static/media/walletappBg.66b74aa8956652fe7eed.jpg",
     "static/media/circles.jpg": "/Portfolio-Bart-omiej-Poprawa/static/media/circles.21259f4b5d46f6d91ef8.jpg",
     "static/media/walletapp.jpg": "/Portfolio-Bart-omiej-Poprawa/static/media/walletapp.fec868750d53a012eadd.jpg",
+    "static/media/weatherAppBg.jpg": "/Portfolio-Bart-omiej-Poprawa/static/media/weatherAppBg.eec020a11128e8f53531.jpg",
     "static/media/contactbookBg.jpg": "/Portfolio-Bart-omiej-Poprawa/static/media/contactbookBg.0a7050dc8683ac18de55.jpg",
     "static/media/phonebook.jpg": "/Portfolio-Bart-omiej-Poprawa/static/media/phonebook.d1c017c46765835768d0.jpg",
+    "static/media/weatherApp.jpg": "/Portfolio-Bart-omiej-Poprawa/static/media/weatherApp.ea3dda8952b9fe5c80df.jpg",
     "static/media/react.svg": "/Portfolio-Bart-omiej-Poprawa/static/media/react.b092ad79d6b9f2bf199975b337138927.svg",
     "static/media/sass.svg": "/Portfolio-Bart-omiej-Poprawa/static/media/sass.94224c3361dfb56dcfe0127bc829b733.svg",
     "static/media/node.svg": "/Portfolio-Bart-omiej-Poprawa/static/media/node.9e024b03e4706d324f35c2d860aeff41.svg",
     "static/media/redux.svg": "/Portfolio-Bart-omiej-Poprawa/static/media/redux.0212214c83d38d0d90d277560ec30ad4.svg",
     "static/media/javascript.svg": "/Portfolio-Bart-omiej-Poprawa/static/media/javascript.e5818355250f712a79c8297b710977bf.svg",
+    "static/media/typescript.svg": "/Portfolio-Bart-omiej-Poprawa/static/media/typescript.d75f36eaa00819887f4d68e390fa8b12.svg",
     "static/media/git.svg": "/Portfolio-Bart-omiej-Poprawa/static/media/git.890ec924b44c2821c2667459bbaeea25.svg",
     "static/media/css.svg": "/Portfolio-Bart-omiej-Poprawa/static/media/css.50ae92afcfb5437d79cba5c9870f847d.svg",
     "static/media/html.svg": "/Portfolio-Bart-omiej-Poprawa/static/media/html.10a58682adde3b5e6f2be37de92758cf.svg",
@@ -33,12 +36,12 @@
     "static/media/arrowUpPopUp.svg": "/Portfolio-Bart-omiej-Poprawa/static/media/arrowUpPopUp.8d3e27c93bc169fe94bc74fddcd51cff.svg",
     "static/media/firebase.svg": "/Portfolio-Bart-omiej-Poprawa/static/media/firebase.ffcf128bc13892d6266e4dc97beecf43.svg",
     "static/media/arrow-down.svg": "/Portfolio-Bart-omiej-Poprawa/static/media/arrow-down.be58a60f09e579d727825ab3744892e9.svg",
-    "main.ba9ebb15.css.map": "/Portfolio-Bart-omiej-Poprawa/static/css/main.ba9ebb15.css.map",
-    "main.bcf9c97e.js.map": "/Portfolio-Bart-omiej-Poprawa/static/js/main.bcf9c97e.js.map",
+    "main.6231b850.css.map": "/Portfolio-Bart-omiej-Poprawa/static/css/main.6231b850.css.map",
+    "main.3ca32dcc.js.map": "/Portfolio-Bart-omiej-Poprawa/static/js/main.3ca32dcc.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio-Bart-omiej-Poprawa/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba9ebb15.css",
-    "static/js/main.bcf9c97e.js"
+    "static/css/main.6231b850.css",
+    "static/js/main.3ca32dcc.js"
   ]
 }
