@@ -177,7 +177,8 @@
 .contactbook-box,
 .icecream-box,
 .walletapp-box,
-.soYummy-box {
+.soYummy-box,
+.weatherApp-box {
 	border-radius: 10px;
 	overflow: hidden;
 	height: 400px;
@@ -193,7 +194,8 @@
 	.contactbook-box,
 	.icecream-box,
 	.walletapp-box,
-	.soYummy-box {
+	.soYummy-box,
+	.weatherApp-box {
 		height: 300px;
 		width: 400px;
 	}
@@ -206,7 +208,8 @@
 	.contactbook-box,
 	.icecream-box,
 	.walletapp-box,
-	.soYummy-box {
+	.soYummy-box,
+	.weatherApp-box {
 		height: 175px;
 		width: 300px;
 	}
@@ -251,6 +254,12 @@
 	-webkit-box-shadow: 0px 0px 43px -8px rgb(153, 212, 138);
 	-moz-box-shadow: 0px 0px 43px -8px rgb(153, 212, 138);
 	box-shadow: 0px 0px 30px 4px #8baa36;
+}
+
+.weatherApp-box:hover {
+	-webkit-box-shadow: 0px 0px 43px -8px rgb(76, 92, 243);
+	-moz-box-shadow: 0px 0px 43px -8px rgb(76, 92, 243);
+	box-shadow: 0px 0px 30px 4px rgb(76, 92, 243);
 }
 
 .page-link {

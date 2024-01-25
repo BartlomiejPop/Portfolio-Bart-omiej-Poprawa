@@ -20,6 +20,8 @@ import walletappBg from "./images/walletappBg.jpg";
 import walletapp from "./images/walletapp.jpg";
 import soYummy from "./images/soYummy.jpg";
 import soYummyBg from "./images/soYummyBg.jpg";
+import weatherApp from "./images/weatherApp.jpg";
+import weatherAppBg from "./images/weatherAppBg.jpg";
 import css from "./icons/css.svg";
 import firebase from "./icons/firebase.svg";
 import git from "./icons/git.svg";
@@ -30,6 +32,7 @@ import node from "./icons/node.svg";
 import react from "./icons/react.svg";
 import redux from "./icons/redux.svg";
 import sass from "./icons/sass.svg";
+import typescript from "./icons/typescript.svg";
 
 function App() {
 	const [isVisible, setIsVisible] = useState(false);
@@ -296,6 +299,95 @@ function App() {
 						}}>
 						<div className="header-sign-wrapper">
 							<img alt="arrow icon" style={{ width: "30px" }} src={arrowDown} />
+							<span>WEATHER APP </span>
+							<img alt="arrow icon" style={{ width: "30px" }} src={arrowDown} />
+						</div>
+					</div>
+				</div>
+				<div className="project-wrapper">
+					<h2 className="project-name" style={{ color: "#ffffff" }}>
+						WEATHER APP
+					</h2>
+					<div className="project-container">
+						<img alt="bg" src={weatherAppBg} className="circlesBg" />
+						<div className="weatherApp-box">
+							<div className="page-link">
+								<a
+									href="https://bartlomiejpop.github.io/weather-app-ts-project/"
+									target="_blank"
+									rel="noreferrer">
+									<img
+										alt="project"
+										className="project-image"
+										src={weatherApp}
+									/>
+								</a>
+							</div>
+							<div className="circles-description">
+								<p
+									className="project-description"
+									style={{
+										color: "#fff",
+										backgroundColor: "#242424",
+									}}>
+									Weather application created with Vite and React. Project
+									architecture made in redux-toolkit. Code written in typescript
+									and styled with SCSS. Application provides weather live data
+									in chosen locations. All changes are saved in local storage.
+								</p>
+								<div className="circles-gitHub">
+									<a
+										href="https://github.com/BartlomiejPop/weather-app-ts-project"
+										target="_blank"
+										rel="noreferrer">
+										<img alt="ghIcon" className="github-icon" src={github} />
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					{showTechnologies && (
+						<div className="technologies-wrapper">
+							<span>TECHNOLOGIES</span>
+							<div className="technologies">
+								<div className="technology">
+									<img
+										alt="javascriptIcon"
+										className="technologyIcon"
+										src={typescript}
+									/>
+								</div>
+								<div className="technology">
+									<img
+										alt="technologyIcon"
+										className="technologyIcon"
+										src={redux}
+									/>
+								</div>
+								<div className="technology">
+									<img
+										alt="technologyIcon"
+										className="technologyIcon"
+										src={react}
+									/>
+								</div>
+								<div className="technology">
+									<img
+										alt="technologyIcon"
+										className="technologyIcon"
+										src={sass}
+									/>
+								</div>
+							</div>
+						</div>
+					)}
+					<div
+						className="header-sign"
+						onClick={() => {
+							ScrollHandler(3);
+						}}>
+						<div className="header-sign-wrapper">
+							<img alt="arrow icon" style={{ width: "30px" }} src={arrowDown} />
 							<span>PHONEBOOK </span>
 							<img alt="arrow icon" style={{ width: "30px" }} src={arrowDown} />
 						</div>
@@ -390,7 +482,7 @@ function App() {
 					<div
 						className="header-sign"
 						onClick={() => {
-							ScrollHandler(3);
+							ScrollHandler(4);
 						}}>
 						<div className="header-sign-wrapper">
 							<img alt="arrow icon" style={{ width: "30px" }} src={arrowDown} />
@@ -491,7 +583,7 @@ function App() {
 					<div
 						className="header-sign"
 						onClick={() => {
-							ScrollHandler(4);
+							ScrollHandler(5);
 						}}>
 						<div className="header-sign-wrapper">
 							<img alt="arrow icon" style={{ width: "30px" }} src={arrowDown} />
@@ -578,7 +670,7 @@ function App() {
 					<div
 						className="header-sign"
 						onClick={() => {
-							ScrollHandler(5);
+							ScrollHandler(6);
 						}}>
 						<div className="header-sign-wrapper">
 							<img alt="arrow icon" style={{ width: "30px" }} src={arrowDown} />
@@ -690,7 +782,7 @@ function App() {
 					<div
 						className="header-sign"
 						onClick={() => {
-							ScrollHandler(6);
+							ScrollHandler(7);
 						}}>
 						<div className="header-sign-wrapper">
 							<img alt="arrow icon" style={{ width: "30px" }} src={arrowDown} />
